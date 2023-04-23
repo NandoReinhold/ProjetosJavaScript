@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exemplo HTML</title>
+  </head>
+  <body>
+    <script>
+      let alcool = parseFloat(prompt("Insira o valor do álcool:", ""));
+      let gasolina = parseFloat(prompt("Insira o valor da gasolina:", ""));
+      let calculo = parseFloat(alcool / gasolina);
+      if (calculo <= 0.7) {
+        alert("É melhor abastecer com álcool");
+      } else {
+        alert("É melhor abastecer com gasolina.");
+      }
+    </script>
+  </body>
+</html>
